@@ -1,0 +1,123 @@
+@media screen and (min-device-width: 319px) and (max-device-width: 480px) {
+        .navbar-inverse {
+            background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+            background: red; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* Standard syntax (must be last) */
+            padding: 1em;
+
+        }
+    
+        .navbar-inverse .navbar-brand {
+            color: white;
+            font-size: 1.5em;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+        }
+    
+        .navbar-inverse .navbar-brand:hover {
+            color: red;
+            font-size: 1.5em;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+        }
+    
+        .header-image {
+            height: 400px;
+   
+            padding: 0;
+            margin-top: 20px;
+        }
+    
+        .header-image img {
+            height: inherit;
+        }
+    
+        .infrastructure img {
+	        padding: 2.5em;
+        }
+    
+        .palace-banner img {
+            padding: 2.5em;
+        }
+    
+        .floated_right {
+	        float: none;
+        }
+        
+        .palace-card .content {
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            margin-top: 0;
+            font-size: 10px;
+        }
+                
+        .palace-card {
+	        padding: 2.5em;
+        }
+    
+        .contact-us > h1 {
+            font-size: 2.5em;
+            text-align: center;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin: 0;
+        }
+    
+        .place-photo img {
+            margin: 0;
+            padding: 3em;
+        }
+    
+        .place-section h1 {
+            margin: 0;
+            padding-top: 1em;
+            text-align: center;
+        }
+    
+
+    
+        .first-content {
+            height: auto;
+            background-color: #a6172d;
+        }
+    
+        .first-content h1 {
+            font-size: 2em;
+            color: white;
+            margin: 0;
+            padding: 1em;
+        }
+    
+        .caption-text {
+	        visibility: visible;
+            background-color: #f2f2f2;
+            color: black;
+            position: inherit;
+            padding: 0;
+            margin-bottom: 0.5em;
+            opacity: 1;
+            text-align: left;
+        }
+    
+        .place-photo h2 {
+	        margin-left: 1.5em;
+            margin-top: -0.83em;
+        }
+    
+        .header-image .header-caption {
+            top: 15em;
+            left: 5em;
+            font-size: 1em;
+            padding: 1em;
+        }
+    
+        
+
+    
+}

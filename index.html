@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Bucharest City</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/devices-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body ng-app = "myApp">
+    
+    <div id = 'top_page' class="container-fluid" ng-controller="myController" autoscroll = 'true'>
+       
+        <navigation-bar></navigation-bar>
+
+
+        <div class="row no-margin">
+ 
+            <div class="col-md-12 header-image">
+                <img src="images/bucuresti.jpg" du-parallax y="background" class = "img-responsive">
+                <div class = 'header-caption'><p style = 'opacity : 1; margin:0'>Bucharest - The city that never sleeps</p></div>
+            </div>
+            
+        </div>
+  
+
+        <!-- Places Section -->   
+    
+        <div class="row no-margin" id = "places">             
+            <div class="col-md-12 first-content">
+                <h1>Places of interest</h1>
+            </div>
+        </div>
+         
+         
+        
+        <div class="row no-margin">
+            <place-card></place-card>
+        </div>
+        
+        <div class="row no-margin">
+            <place-card-two></place-card-two>
+        </div>
+        
+         
+        <!-- End Places Section -->
+        
+        <!-- ******************************************************************************************* -->
+        
+        <!-- Activities Section -->
+        
+        <div class="row no-margin">
+            <div class="col-md-12 first-content">
+                <h1>Things you can do</h1>
+            </div>
+        </div>
+        
+        <div class="row no-margin">
+            <activities></activities>
+        </div>
+        
+        <!-- End Activities Section -->
+        
+        <!-- ******************************************************************************************* -->
+        
+        
+        <div class="row no-margin" id = "infrastructure">
+            <div class="col-md-12 first-content">
+                <h1>Amazing buildings and constructions</h1>
+            </div>
+        </div>
+         
+        <!-- Infrastructure Section -->
+           
+        <div class="row no-margin">
+           
+            <div class="col-md-4 palace-card">
+               
+                <div class="content">
+                    <p class='palace-text'>{{grozavesti_bridge.text}}</p>
+                </div>
+
+            </div>
+            
+            <div class="col-md-8 infrastructure">
+                <img ng-src = '{{grozavesti_bridge.image}}' class ="img-responsive">
+            </div>
+            
+        </div>
+            
+        <hr style = 'border : 0.2px groove black; margin-left: 1em; margin-right: 1em;'>
+  
+        <div class="row no-margin">
+            <div class="col-md-8 palace-banner">
+                 <img src="images/bucuresti_casa_poporului_banner.jpg" du-parallax y="background_two" class = "img-responsive">
+            </div>
+            
+            <div class="col-md-4 palace-card">
+               
+                <div class="content">
+                  
+                  
+            <p class='palace-text'>Lorem ipsum dolor sit amet, rutrum suspendisse rhoncus ad, erat pellentesque cursus gravida, nullam mauris et morbi, et nisl magna justo sed, purus donec enim mauris nec quam vivamus. Et eleifend ut nemo blandit mi eget, dui dolor donec arcu dui velit tincidunt. Pretium integer vel libero fusce, vitae dolor varius, aliquam ac egestas in, pulvinar pretium voluptas elit, nec euismod maecenas mauris scelerisque vel sollicitudin. Ipsum imperdiet ut ut nisl.
+            </p>
+                </div>
+
+            </div>
+        </div>
+           
+           
+        <!-- End Infrastructure Section -->
+
+        <!-- ******************************************************************************************* -->
+         
+        <!-- Contact Us Section -->
+            
+        <div class="row no-margin">
+            <div id = "contact" class="col-md-12 contact-us">
+             <h1>Drop us a line</h1>
+                 <input class = 'form-control' type="text" placeholder="Your name"/>
+                 <input class = 'form-control' type="text" placeholder="Your e-mail"/>
+                 <textarea class = 'form-control' cols="10" rows="10" placeholder="Message"></textarea>
+                 <button class = 'btn btn-default floated-left'>SUBMIT</button>
+            </div>
+        </div>
+        
+        <!-- End Contact Us Section -->
+       
+    </div>
+    
+    
+    
+    <!-- Angular scripts and dependencies -->
+    
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-scroll.js"></script>
+    <script src="lib/angular-parallax.js"></script>
+    <script src="bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/directive.js"></script>
+    <script src="services/helper.js"></script>
+</body>
+</html>

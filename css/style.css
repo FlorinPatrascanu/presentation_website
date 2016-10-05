@@ -1,0 +1,618 @@
+
+
+.header-content {
+    background-color: white;
+    padding: 2em;
+    text-align: center;
+
+}
+
+
+
+.no-margin {
+	margin: 0;
+}
+
+#top_page {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.place-photo .mega-test {
+    background-color: royalblue;
+    color: white;
+    padding: 2em;
+    border: 2px solid white;
+    transition: 0.3s background-color ease-in;
+}
+
+/*
+.place-photo .mega-test:hover {
+	background-color: white;
+    border: 2px solid royalblue;
+    color: royalblue;
+}
+*/
+
+
+.place-photo .mega-test p {
+    text-align: justify;
+    padding: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.palace-banner {
+	padding: 0;
+    overflow: hidden;
+}
+
+.palace-banner img {
+	padding: 2em;
+}
+
+
+
+.navbar-inverse {
+/*    background-color: #3ac569;*/
+    background-color: white;
+    border: none;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-nav {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-nav > .navbar-inverse {
+
+} 
+
+.navbar-inverse .navbar-toggle {
+    background-color: black;
+}
+
+.floated_right {
+	float: right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: orangered;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-size: 3em;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: red;
+    font-size: 3em;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-inverse .navbar-brand:focus {
+    color: orangered;
+}
+	
+	
+
+
+
+.header-menu {
+    height: 125px;
+}
+
+.header-menu a {
+	color: black;
+    font-size: 1.4em;
+    padding: 2em;
+}
+
+.header-menu ul.list-inline {
+    text-align: right;
+    margin-top: 4em;
+}
+
+.header-image {
+	height: 600px;
+    margin: 0;
+    padding: 0;
+    margin-top: 106px;
+  
+}
+
+.header-image .header-caption {
+    background-color: black; 
+    position: absolute; 
+    top: 8em;
+    border-radius: 1em;
+    left: 13.5em;  
+    color: white; 
+    opacity : 0.8;   
+    font-size: 2em;
+    padding: 2em;
+    font-family: 'Work Sans', sans-serif;
+    animation: zoomIn 1s;
+    
+}
+
+
+
+
+.header-image img {
+	height: auto;
+    max-height: 600px;
+    width: 100%;
+}
+
+.first-content {
+    height: 11em;
+    background-color: #a6172d;
+}
+
+.first-content > h1 {
+   margin-top: 1.7em;
+   color: white;
+   font-family: 'Work Sans', sans-serif;
+   text-align: center;
+
+}
+
+.place-section {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    border : 1px solid white;
+    
+}
+
+.place-section > h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.6em;
+}
+
+.place-photo img {
+    margin-left: 8em;
+    padding-bottom: 4em;
+}
+
+.place-photo h2 {
+	 cursor: pointer;
+}
+
+.caption-text {
+    background-color: black; 
+    opacity: 0; 
+    color: white; 
+    padding: 0.5em;
+    position: absolute; 
+    left: 112px; 
+    top: 304.5px;
+    visibility: hidden;
+    transition: 0.3s opacity ease-in;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.place-photo:hover .caption-text {
+    visibility: visible;
+    opacity: 0.8;
+} 
+
+	
+
+.palace-card {
+	padding: 2em;
+}
+
+.palace-card .content {
+
+    margin-top: 2.5em;
+    color: black;
+    padding: 2em;
+}
+
+.palace-text {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+.palace-card .palace-text {
+	 font-size: 1.2em;
+     text-align: justify;
+}
+
+
+.about-us {
+	background-color: #f2f2f2;
+    color: orangered;
+    height: 350px;
+}
+
+.infrastructure {
+    padding: 0;
+    overflow: hidden;
+}
+
+.infrastructure img {
+    padding: 2em;
+}
+
+.contact-us {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%); /* Standard syntax (must be last) */
+    padding-bottom: 1em;
+    margin: 0;
+    height: 562px;
+    text-align: center;
+}
+
+.contact-us > h1 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.contact-us input {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-us textarea {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 500px;
+}
+
+.floated-left {
+    float: left;
+}
+
+.contact-us button {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    padding: 1em;
+    border-radius: 0px;
+    border: 0.3em solid black;
+    margin-top: 2em;
+    transition: background-color 0.5s , color 0.5s;
+}
+
+.contact-us button:hover {
+    color: white;
+    background-color: black;
+    border: 0.3em solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.activity {
+	padding-top: 2em;
+    margin: 2em 0 2em 0;
+}
+
+.activity p.title {
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 2em;
+}
+
+.activity p.description {
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    margin-top: 2em;
+    padding: 2em;
+} 
+	
+.activity:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+
+@media screen and (min-width: 319px) and (max-width: 480px) {
+        .navbar-inverse {
+            background-color: #3ac569;
+            padding: 1em;
+
+        }
+    
+        .navbar-inverse .navbar-brand {
+            color: black;
+            font-size: 1.5em;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+        }
+    
+        .navbar-inverse .navbar-brand:hover {
+            color: red;
+            font-size: 1.5em;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+        }
+    
+        .header-image {
+            height: 400px;
+            margin-bottom: -1.5em;
+            padding: 0;
+            margin-top: 5em;
+        }
+    
+        .header-image img {
+            height: inherit;
+        }
+    
+        .infrastructure {
+
+            padding: 0;
+        }
+    
+        .infrastructure img {
+	        height: inherit;
+        }
+    
+        .floated_right {
+	        float: none;
+        }
+        
+        .palace-card .content {
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            margin-top: 0;
+            font-size: 10px;
+        }
+                
+        .palace-card {
+	        padding-top: 0;
+        }
+    
+        .contact-us > h1 {
+            font-size: 2.3em;
+            text-align: center;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin: 0;
+        }
+    
+     
+        .floated-left {
+	        float: none;
+        }
+    
+        .place-photo img {
+            margin: 0;
+            padding: 2em;
+        }
+    
+        .place-photo h2 {
+	       margin-left: 0.6em;
+            margin-top: -0.93em;
+            
+        }
+    
+        .place-section h1 {
+            margin-bottom: -10px;
+            text-align: center;
+        }
+    
+        .first-content {
+            height: auto;
+            background-color: white;
+        }
+    
+        .first-content h1 {
+            font-size: 2em;
+            margin: 0;
+            padding: 1em 0 1em 0;
+        }
+    
+        .caption-text {
+	        visibility: visible;
+            background-color: #f2f2f2;
+            color: black;
+            position: inherit;
+            max-width: 300px;
+            padding: 0.5em;
+            opacity: 1;
+        }
+
+        .header-image .header-caption {
+            top: 7em;
+            left: 1em;
+            font-size: 1.5em;
+            padding: 1em;
+        }
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 569px) {
+        .infrastructure {
+            margin-bottom: 1em;
+            height: auto;
+        }
+    
+        .infrastructure img {
+	        height: inherit;
+            padding: 2em;
+        }
+    
+        .palace-card .content {
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            margin-top: 0;
+        }
+                
+        .palace-card {
+	        padding-top: 0;
+        }
+    
+        .contact-us > h1 {
+            font-size: 2.3em;
+            text-align: center;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin: 0;
+        }
+              
+        .place-photo img {
+            margin: 0;
+            padding: 2em;
+        }
+    
+        .place-section h1 {
+            margin-bottom: -10px;
+            text-align: center;
+        }
+}
+
+@media screen and (min-width: 570px) and (max-width: 663px) {
+        .infrastructure {
+            margin-bottom: 1em;
+
+        }
+    
+        .infrastructure img {
+	        max-height: auto;
+            padding: 2em;
+            margin-bottom: 0;
+        }
+    
+        .palace-card {
+	        padding-top: 0;
+        }
+    
+        .palace-card .content {
+            padding-top: 2em;
+            margin-top: 0.5em;
+            background-color: black;
+            color: white;
+            opacity: 0.6;
+        }
+    
+        .contact-us {
+	        margin-bottom: 1.2em;
+        }
+    
+        .header-image {
+            height: auto;
+        }
+    
+        .contact-us > h1 {
+            font-size: 2.3em;
+            text-align: center;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin: 0;
+        }
+    
+        .place-photo img {
+            margin: 0;
+            padding: 4em;
+        }
+    
+    
+        .place-section h1 {
+            margin-bottom: -10px;
+            text-align: center;
+        }
+    
+        .first-content {
+	        height: 4.5em;
+        }
+    
+        .first-content > h1 {
+	        margin-top: 1em;
+            padding-bottom: 1em;
+        }
+    
+}
+
+@media screen and (min-width: 663px) and (max-width: 831px) {
+        .infrastructure {
+            margin-bottom: 1em;
+            height: auto;
+        }
+    
+        .infrastructure img {
+	        height: auto;
+            padding: 2em;
+        }
+    
+
+    
+        .palace-card .content {
+            background-color: black;
+            color: white;
+            opacity: 0.6;
+            margin-top: 0;
+        }
+    
+        .palace-card {
+	        padding-top: 0;
+        }
+    
+        
+        .contact-us {
+	        margin-bottom: 1.2em;
+        }
+    
+        .header-image {
+            height: auto;
+        }
+    
+        .contact-us > h1 {
+            font-size: 2.3em;
+            text-align: center;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin: 0;
+        }
+}
+
+

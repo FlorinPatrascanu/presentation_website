@@ -1,0 +1,11 @@
+
+<div class="col-md-6 place-section" ng-repeat="place in places">
+                        <h1>{{place.title}}</h1>
+    <div class="place-photo">
+        <img ng-src = '{{place.photo}}' class = 'img-responsive'/>
+        <h2 ng-click = 'show_description =! show_description' class = 'caption-text'>View more</h2>    
+        <div class="mega-test" ng-if = 'show_description' make-hov>
+            <p>{{place.desc}}</p>
+        </div>
+    </div>
+</div>
